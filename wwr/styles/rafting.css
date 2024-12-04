@@ -32,7 +32,7 @@ header img {
 nav ul {
     list-style-type: none;
     padding: 0;
-    display: flex;  /* Cambiado a flex para mostrar los elementos en una fila */
+    display: flex;  
     justify-content: center;
     gap: 20px;
 }
@@ -140,10 +140,8 @@ footer p {
     opacity: 0.8;
 }
 
-/* Corregir sintaxis de linear-gradient */
 input, button {
-    background-image: linear-gradient(to top, #ff6347, #333); /* Corregido gradiente */
-}
+    background-image: linear-gradient(to top, #ff6347, #333);
 
 input:hover, button:hover {
     background-image: linear-gradient(to top, #ff6347, #444);
