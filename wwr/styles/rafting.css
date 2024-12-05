@@ -2,12 +2,11 @@
 :root {
     --primary-color: #0bbce0;
     --accent-color: #ff6347;
-    --background-color: rgba(244, 244, 244, 0.78); /* Cambio: uso de rgba para opacidad */
+    --background-color: rgba(244, 244, 244, 0.78);
     --text-color: #fff;
     --secondary-text-color: #666;
 }
 
-/* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -15,7 +14,6 @@ body {
     background-color: var(--background-color);
 }
 
-/* Header Styling */
 header {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -46,11 +44,11 @@ nav a:hover {
     color: var(--accent-color);
 }
 
-/* Hero Section Styling */
+
 .hero {
     position: relative;
     width: 100%;
-    background-image: linear-gradient(to top, #0b57d0, #ff6347); /* Gradiente corregido */
+    background-image: linear-gradient(to top, #0b57d0, #ff6347);
 }
 
 .hero img {
@@ -85,7 +83,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* History Section */
 .history {
     padding: 20px;
     background-color: var(--primary-color);
@@ -101,7 +98,7 @@ nav a:hover {
     color: hsl(0, 0%, 100%);
 }
 
-/* Adventures Section */
+
 .adventures {
     padding: 20px;
     background-color: var(--primary-color);
@@ -143,7 +140,7 @@ h2 {
     margin-top: 10px;
 }
 
-/* Footer Styling */
+
 footer {
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -177,7 +174,6 @@ footer p {
     transition: opacity 0.3s ease;
 }
 
-/* Efecto hover para las imágenes */
 .social-icon:hover {
     opacity: 0.8;
 }
