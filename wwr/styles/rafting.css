@@ -92,7 +92,6 @@ nav a:hover {
     color: hsl(0, 0%, 100%);
 }
 
-/* Adventures Section */
 .adventures {
     padding: 20px;
     background-color: var(--primary-color);
