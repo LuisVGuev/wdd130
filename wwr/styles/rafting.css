@@ -1,4 +1,4 @@
-/* CSS rafting */
+/*CSS rafting*/
 :root {
     --primary-color: #0bbce0;
     --accent-color: #ff6347;
@@ -46,7 +46,6 @@ nav a {
 nav a:hover {
     color: var(--accent-color);
 }
-
 
 .hero {
     position: relative;
