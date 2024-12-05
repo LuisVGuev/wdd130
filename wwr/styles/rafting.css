@@ -1,4 +1,4 @@
-/* Global Styles and CSS Variables */
+/* CSS rafting */
 :root {
     --primary-color: #0bbce0;
     --accent-color: #ff6347;
@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
+    margin-bottom: 20px;
 }
 
 header {
@@ -21,10 +22,12 @@ header {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 header img {
     width: 100px;
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -86,6 +89,8 @@ nav a:hover {
 .history {
     padding: 20px;
     background-color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .history h2 {
@@ -140,17 +145,22 @@ h2 {
     margin-top: 10px;
 }
 
-
 footer {
     background-color: var(--primary-color);
     color: var(--text-color);
-    padding: 20px 0;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer p {
     font-size: 1em;
     color: hsl(0, 0%, 100%);
+    
 }
 
 .sociallinks a {
@@ -175,6 +185,6 @@ footer p {
 }
 
 .social-icon:hover {
-    opacity: 0.8;
+    opacity: 0.8;  
 }
 
