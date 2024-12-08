@@ -1,10 +1,10 @@
 /*CSS rafting*/
 :root {
-    --primary-color: #0bbce0;
-    --accent-color: #ff6347;
-    --background-color: rgba(244, 244, 244, 0.78);
-    --text-color: #fff;
-    --secondary-text-color: #666;
+    --primary-color: #175BB0;
+    --accent-color: #0b57d0;
+    --background-color: #D1DFF0;
+    --text-color: #D1DFF0;
+    --secondary-text-color: #004ba880;
 }
 
 body {
@@ -57,6 +57,7 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 .hero h1 {
@@ -71,7 +72,7 @@ nav a:hover {
     position: absolute;
     top: 60%;
     left: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--secondary-text-color);
     padding: 15px;
     color: var(--text-color);
     width: 80%;
@@ -94,12 +95,14 @@ nav a:hover {
 
 .history h2 {
     font-size: 2em;
-    color: hsl(0, 0%, 100%);
+    color: var(--text-color);
+    text-align: center;
 }
 
 .history p {
     font-size: 1.2em;
-    color: hsl(0, 0%, 100%);
+    color: var(--text-color);
+    text-align: center;
 }
 
 
@@ -111,7 +114,7 @@ nav a:hover {
 
 h2 {
     font-size: 2rem;
-    color: white;
+    color: var(--text-color);
     margin-bottom: 20px;
 }
 
@@ -137,8 +140,8 @@ h2 {
 }
 
 .adventures figcaption {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background-color: #004BA8;
+    color: var(--text-color);
     padding: 10px;
     font-size: 1rem;
     margin-top: 10px;
@@ -158,7 +161,7 @@ footer {
 
 footer p {
     font-size: 1em;
-    color: hsl(0, 0%, 100%);
+    color: var(--text-color);
     
 }
 
