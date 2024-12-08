@@ -1,4 +1,4 @@
-/*CSS rafting*/
+/* Rafting CSS */
 :root {
     --primary-color: #175BB0;
     --accent-color: #0b57d0;
@@ -57,7 +57,6 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
-
 }
 
 .hero h1 {
@@ -104,7 +103,6 @@ nav a:hover {
     color: var(--text-color);
     text-align: center;
 }
-
 
 .adventures {
     padding: 20px;
@@ -162,7 +160,6 @@ footer {
 footer p {
     font-size: 1em;
     color: var(--text-color);
-    
 }
 
 .sociallinks a {
@@ -187,6 +184,7 @@ footer p {
 }
 
 .social-icon:hover {
-    opacity: 0.8;  
+    opacity: 0.8;
 }
+
 
