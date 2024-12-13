@@ -294,11 +294,11 @@ footer p {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    transition: opacity 0.3s ease; /* Add a smooth transition effect for hover */
+    transition: opacity 0.3s ease;
 }
 
 .sociallinks a:hover img {
-    opacity: 0.8; /* Slight fade on hover */
+    opacity: 0.8; 
 }
 
 .social-icon {
@@ -314,16 +314,16 @@ footer p {
 
 /* Footer Link to Wireframe */
 footer a {
-    color: var(--text-color); /* Make the link the same color as the accent */
-    text-decoration: none; /* Remove the underline from the link */
-    font-weight: bold; /* Make the link text bold */
-    display: block; /* Make the link a block-level element to ensure it takes up the full width */
-    margin-top: 20px; /* Add some space above the link */
-    text-align: center; /* Center the link text */
+    color: var(--text-color); 
+    text-decoration: none; 
+    font-weight: bold; 
+    display: block; 
+    margin-top: 20px; 
+    text-align: center; 
 }
 
 footer a:hover {
-    color: #004ba8; /* Change the color when the link is hovered */
+    color: #004ba8; 
 }
 
 
