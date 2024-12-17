@@ -148,6 +148,7 @@ nav a:hover {
 .contact-info {
     padding: 20px;
     background-color: #D1DFF0;
+    color : var(--secondary-text-color);
 }
 
 .company-info {
@@ -169,43 +170,59 @@ nav a:hover {
 
 iframe {
     width: 100%;
-    height: 300px;
+    height: 350px;
     border: none;
     margin-top: 20px;
 }
 
 /* Employee Profiles */
 .employee-profiles {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    padding: 40px 20px 20px 20px;  
+    background-color: var(--background-color); 
+}
+.employee-profiles h2 {
+    font-size: 2rem;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 30px;  
+    margin-top: 0;  
+}
+
+.profiles-container {
+    display: flex;  
+    flex-direction: row; 
+    gap: 30px;  
+    justify-content: center;  
+    flex-wrap: wrap;  
+    margin-top: 20px;  
 }
 
 .profile {
     text-align: center;
-    flex-basis: 30%;
-    min-width: 200px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    box-sizing: border-box;
+    max-width: 300px; 
+    box-sizing: border-box;  
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .profile img {
-    width: 80px;  
-    height: 80px; 
-    border-radius: 50%; 
-    margin-bottom: 10px;
-    border: 3px solid var(--accent-color);
-    box-sizing: border-box;
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center; /
+    border-radius: 8px;  /
+    
 }
 
-.profile figcaption {
-    font-weight: bold;
-    color: var(--primary-color);
+figcaption {
     margin-top: 10px;
+    font-size: 1rem;
+    color : #004BA8;
 }
 
 /* Contact Form */
