@@ -59,32 +59,39 @@
                 </div>
             </section>
 
+            <!-- Contact Form -->
             <section class="contact-form">
                 <h2>Send Us a Message</h2>
                 <form action="submit_form.php" method="POST">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
 
-                    <label>Purpose of Message</label>
-                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                    <label for="suggestion">Website Suggestion</label>
+                    <label>Purpose of the Message:</label>
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
 
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
 
                     <label for="newsletter">
                         <input type="checkbox" id="newsletter" name="newsletter">
-                        Please subscribe me to the monthly newsletter
+                        Subscribe to the monthly newsletter
                     </label>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit">Send Message</button>
                 </form>
             </section>
         </div>
@@ -105,7 +112,8 @@
             </a>
         </nav>
         <!-- Adding the Wireframe Link Here -->
-        <a href="images/contact-us-wireframe.jpg" target="_blank">View Wireframe</a>
+        <a href="https://app.moqups.com/D13XY4Az9JyG2g0ZLQmLzwk6xAljme9n/view/page/acaaa9c8c" target="_blank">View Wireframe</a>
     </footer>
 </body>
 </html>
+
